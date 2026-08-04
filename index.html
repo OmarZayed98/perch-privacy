@@ -231,8 +231,9 @@
         <ul>
           <li><strong>Chat messages</strong> you send to your partner.</li>
           <li>
-            <strong>Photos</strong> you upload in chat or post to the Photo Widget (stored as image
-            files on our object storage).
+            <strong>Photos</strong> you upload in chat or post to the Photo Widget. Photos are stored
+            in <strong>private</strong> object storage and accessed only through
+            <strong>time-limited signed links</strong> — not as permanent public URLs.
           </li>
           <li>
             <strong>Widget notes</strong> — short notes posted only to the Message Widget (not
@@ -304,12 +305,13 @@
           <tbody>
             <tr>
               <td>Chat messages &amp; chat photos</td>
-              <td>You and your partner</td>
+              <td>You and your partner (photos via private, time-limited links)</td>
             </tr>
             <tr>
               <td>Widget notes &amp; widget photos</td>
               <td>
-                Your partner (on their widgets / in-app widget screens), according to their settings
+                Your partner (on their widgets / in-app widget screens), according to their settings;
+                photos via private, time-limited links
               </td>
             </tr>
             <tr>
@@ -381,6 +383,7 @@
           <li>Encrypted transport (HTTPS)</li>
           <li>Hashed login codes</li>
           <li>Encrypted storage of precise location payloads</li>
+          <li>Private object storage for photos, with time-limited signed download links</li>
           <li>Access controls for administrative tools</li>
         </ul>
         <p>
