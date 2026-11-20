@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Perch — Delete your account</title>
+    <meta
+      name="description"
+      content="How to delete your Perch account and data, what is deleted, and what is kept."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6e9f8;
+        --surface: #ffffff;
+        --text: #1a1228;
+        --muted: #4a3470;
+        --border: #e1cdf2;
+        --accent: #7f5eb5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          'Iowan Old Style',
+          'Palatino Linotype',
+          Palatino,
+          Georgia,
+          'Times New Roman',
+          serif;
+        background:
+          radial-gradient(1200px 600px at 10% -10%, #e7d9f8 0%, transparent 55%),
+          radial-gradient(900px 500px at 100% 0%, #efdff8 0%, transparent 50%),
+          var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      main {
+        max-width: 44rem;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 4rem;
+      }
+
+      header {
+        margin-bottom: 2rem;
+      }
+
+      .brand {
+        font-size: 0.85rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          sans-serif;
+        font-weight: 700;
+        margin: 0 0 0.75rem;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 5vw, 2.75rem);
+        line-height: 1.15;
+        margin: 0 0 0.5rem;
+        font-weight: 700;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          sans-serif;
+        font-size: 0.95rem;
+        margin: 0;
+      }
+
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 1rem;
+        padding: 1.5rem 1.35rem;
+        margin-bottom: 1.25rem;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin: 0 0 0.75rem;
+      }
+
+      p,
+      li {
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          sans-serif;
+        font-size: 1rem;
+      }
+
+      p {
+        margin: 0 0 0.85rem;
+      }
+
+      ul,
+      ol {
+        margin: 0 0 0.85rem;
+        padding-left: 1.2rem;
+      }
+
+      li {
+        margin-bottom: 0.4rem;
+      }
+
+      strong {
+        font-weight: 700;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="brand">Perch</p>
+        <h1>Delete your Perch account</h1>
+        <p class="meta">Effective date: November 20, 2026</p>
+      </header>
+
+      <section class="card">
+        <h2>Option 1: in the app</h2>
+        <ol>
+          <li>Open Perch and sign in.</li>
+          <li>Go to <strong>Settings → Delete account</strong>.</li>
+          <li>Type <strong>DELETE</strong> and tap <strong>Delete my account</strong>.</li>
+        </ol>
+        <p>Your account is deleted straight away.</p>
+      </section>
+
+      <section class="card">
+        <h2>Option 2: by email, without the app</h2>
+        <ol>
+          <li>
+            Email <a href="mailto:info.perchapp@gmail.com?subject=Delete%20my%20Perch%20account"
+              >info.perchapp@gmail.com</a
+            >
+            from the email address you use to sign in to Perch.
+          </li>
+          <li>Use the subject <strong>Delete my Perch account</strong>.</li>
+        </ol>
+        <p>
+          We delete the account within 30 days and reply to confirm. If the email does not come from
+          the account's address, we may ask you to confirm that you own it.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>What is deleted</h2>
+        <ul>
+          <li>Your account: email address, display name, and profile photo</li>
+          <li>
+            Your connections with partners, current and past, and everything shared in them: chat
+            messages, photos, widget notes, widget photos, and countdowns. Your partner loses this
+            history too.
+          </li>
+          <li>Your location, time zone, and widget settings</li>
+          <li>Your push notification tokens and signed-in sessions</li>
+          <li>Pending sign-in codes for your email address</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>What is kept</h2>
+        <ul>
+          <li>
+            An internal record that an account was deleted, with its internal ID and counts of the
+            items removed. It does not contain your email address, name, messages, or photos.
+          </li>
+          <li>
+            Copies in our encrypted database backups, which expire and are removed within 30 days.
+          </li>
+        </ul>
+        <p>
+          If we must keep something longer for legal, security, or abuse-prevention reasons, we keep
+          only what is needed, for as long as it is needed.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Delete some data without deleting your account</h2>
+        <ul>
+          <li>
+            Turn off location sharing in Settings. This also deletes the location we have stored for
+            you.
+          </li>
+          <li>
+            <strong>Settings → Disconnect</strong> ends your connection with your partner, but keeps
+            your message history on our servers. To delete that history, delete your account.
+          </li>
+          <li>
+            Email <a href="mailto:info.perchapp@gmail.com">info.perchapp@gmail.com</a> to ask us to
+            delete specific data.
+          </li>
+        </ul>
+        <p>
+          More detail is in the <a href="./">Perch Privacy Policy</a>.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
